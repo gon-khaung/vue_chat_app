@@ -7,7 +7,7 @@
           <label for="name">Enter your name:</label>
           <input type="text" name="name" v-model="name" />
           <p v-if="feedBack" class="red-text">{{ feedBack }}</p>
-          <button class="btn teal">Enter Chat</button>
+          <button class="btn teal">Enter Chat .</button>
         </form>
       </div>
     </div>
